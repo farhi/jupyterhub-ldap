@@ -1,4 +1,4 @@
-NAME = bsmithyman/jupyterhub-ldap
+NAME = soleil/jupyterhub-ldap
 
 .PHONY: all build
 

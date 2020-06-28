@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get update
-apt-get -y install ldap-auth-client nscd
+apt-get -y install ldap-auth-client nscd ldap-utils libnss-ldapd nslcd
 auth-client-config -t nss -p lac_ldap
 
 cat > /usr/share/pam-configs/my_mkhomedir << END
